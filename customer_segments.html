@@ -7346,6 +7346,7 @@ The first and second principal components account for 70.68% of the variance, wh
 Component 2 adds in the more variable purchases of fresh, frozen and deli products, possibly representing larger customers with more selling space..
 Component 3 accounts for the likelihood that a customer who purchases a large amount of fresh produce is much less likely to purchase deli/frozen products.
 Component 4 shows the additional effect of customers who buy a lot of frozen products.</p>
+<p>In total, the first four compnenets represent the vast majority of variance in customer spending.</p>
 
 </div>
 </div>
@@ -8711,7 +8712,7 @@ Sample point 2 predicted to be in Cluster 0
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> the target variable would be the new engineered feature, the customer segment.</p>
+<p><strong>Answer:</strong> the target variable would be the new engineered feature, the customer segment.  The features that the supervised learner learns on could be either the original, untransformed features, or we could apply the PCA transformation.  The latter might be more accurate, but would require more effort (which may not be justified if untransformed inputs give a good enough error rate).</p>
 
 </div>
 </div>
